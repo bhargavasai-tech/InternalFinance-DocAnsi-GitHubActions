@@ -36,7 +36,7 @@ jobs:
 
             # 4. DOWNLOAD Playbook from GitHub
             # I've verified this URL matches your new repo name exactly:
-            curl -o deploy.yml https://raw.githubusercontent.com/bhargavasai-tech/InternalFinance-DocAnsi-GitHubActions/refs/heads/main/.github/workflows/deploy.yml
+            curl -o deploy.yml https://raw.githubusercontent.com/bhargavasai-tech/InternalFinance-DocAnsi-GitHubActions/main/Ansible/deploy.yml
 
             # 5. RUN Ansible
             ansible-playbook -i hosts deploy.yml
